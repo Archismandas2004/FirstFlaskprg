@@ -1,0 +1,16 @@
+<html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form method="post" action="{{ url_for('login') }}">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
